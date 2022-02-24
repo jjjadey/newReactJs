@@ -1,6 +1,10 @@
 import React from 'react'
+import { useGetAllProductsQuery } from '../features/productApi';
 
 const Home = () => {
+  const { data, error, isLoading } = useGetAllProductsQuery();
+  console.log(data, error, isLoading);
+
   return (
     <div className="home-container">
       <>
