@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 
-import productsReducer from './features/productSlice';
+import productsReducer, { productsFetch } from './features/productSlice';
 
 const store = configureStore({
   reducer: {
     products: productsReducer,
   }
 });
+
+store.dispatch(productsFetch());
 
 ReactDOM.render(
   <React.StrictMode>
