@@ -1,3 +1,16 @@
+# Learn basic ReactJS
+checkout branch for example
+
+## All Branches 
+- master: reactJS template
+- lazy-load-infinite-scroll: infinite scroll image using Unsplash API
+- react-test-renderer: unit testing Jest and React-test-renderer snapshot
+- redux-basic: redux legacy
+- redux-toolkit-basic
+- redux-toolkit-shopping-with-nodejs: Shopping cart app and RTK Query
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
