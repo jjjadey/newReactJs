@@ -1,4 +1,4 @@
-# Uni testing Jest and React-test-renderer snapshot
+# Unit testing Jest and React-test-renderer snapshot
 Tutorial  [React Testing Tutorial (Jest + React Testing Library)](https://youtu.be/ML5egqL3YFE)
 
 # Getting Started with Create React App
