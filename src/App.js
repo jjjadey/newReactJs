@@ -8,10 +8,14 @@ import HomePage from './pages/HomePage';
 import SignUp from './pages/SignupPage';
 import Pricing from './pages/PricingPage';
 
+//component
+import Navbar from './components/navbar/Navbar';
+
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<SignUp />} />
