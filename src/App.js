@@ -10,6 +10,7 @@ import Pricing from './pages/PricingPage';
 
 //component
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
