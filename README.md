@@ -8,6 +8,7 @@ checkout branch for example
 - redux-basic: redux legacy
 - redux-toolkit-basic
 - redux-toolkit-shopping-with-nodejs: Shopping cart app and RTK Query
+- responsive-styled: responsive using Styled Components
 
 
 
